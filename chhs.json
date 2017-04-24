@@ -1,32 +1,32 @@
 [
   {
-    name: "Death by ZIP Code by Gender, 2012 - 2013",
-    filename: "death-by-zip",
-    url: "https://chhs.data.ca.gov/resource/vcy8-c3tn"
+    "name": "Death by ZIP Code by Gender, 2012 - 2013",
+    "filename": "death-by-zip",
+    "url": "https://chhs.data.ca.gov/resource/vcy8-c3tn"
   },
   {
-    name: "Births by Age of Mother, 1960-2013",
-    filename: "births-by-age",
-    url: "https://chhs.data.ca.gov/resource/mb77-jfki"
+    "name": "Births by Age of Mother, 1960-2013",
+    "filename": "births-by-age",
+    "url": "https://chhs.data.ca.gov/resource/mb77-jfki"
   },
   {
-    name: "Fruit and Vegetable Consumption in California Residents, 2012/2013",
-    filename: "vegetable-consumption",
-    url: "https://chhs.data.ca.gov/resource/mhu4-w2fm"
+    "name": "Fruit and Vegetable Consumption in California Residents, 2012/2013",
+    "filename": "vegetable-consumption",
+    "url": "https://chhs.data.ca.gov/resource/mhu4-w2fm"
   },
   {
-    name: "Income Inequality",
-    filename: "income-inequality",
-    url: "https://chhs.data.ca.gov/resource/6mx8-yezg"
+    "name": "Income Inequality",
+    "filename": "income-inequality",
+    "url": "https://chhs.data.ca.gov/resource/6mx8-yezg"
   },
   {
-    name: "Key Characteristics of Californians Age 60 and Over",
-    filename: "characteristics-over-age-60",
-    url: "https://chhs.data.ca.gov/resource/dqye-6xgx"
+    "name": "Key Characteristics of Californians Age 60 and Over",
+    "filename": "characteristics-over-age-60",
+    "url": "https://chhs.data.ca.gov/resource/dqye-6xgx"
   },
   {
-    name: "Independent Medical Review (IMR) Determinations, Trend",
-    filename: "imr",
-    url: "https://chhs.data.ca.gov/api/views/pch7-48qc"
+    "name": "Independent Medical Review (IMR) Determinations, Trend",
+    "filename": "imr",
+    "url": "https://chhs.data.ca.gov/api/views/pch7-48qc"
   }
 ]
