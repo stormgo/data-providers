@@ -1,5 +1,5 @@
 
-* [OpenDataCache Available Portals](http://www.opendatacache.com/)
+[OpenDataCache Available Portals](http://www.opendatacache.com/)
 
 ### City of NewOrleans
 
