@@ -1,12 +1,17 @@
 [
   {
-    name: "",
-    filename: "",
-    url: ""
+    name: "Death by ZIP Code by Gender, 2012 - 2013",
+    filename: "death-by-zip",
+    url: "https://chhs.data.ca.gov/resource/vcy8-c3tn"
   },
   {
-    name: "",
-    filename: "",
-    url: ""
+    name: "Births by Age of Mother, 1960-2013",
+    filename: "births-by-age",
+    url: "https://chhs.data.ca.gov/resource/mb77-jfki"
+  },
+  {
+    name: "Fruit and Vegetable Consumption in California Residents, 2012/2013",
+    filename: "vegetable-consumption",
+    url: "https://chhs.data.ca.gov/resource/mhu4-w2fm"
   }
 ]
