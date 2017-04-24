@@ -25,8 +25,8 @@
     "url": "https://chhs.data.ca.gov/resource/dqye-6xgx"
   },
   {
-    "name": "Independent Medical Review (IMR) Determinations, Trend",
-    "filename": "imr",
-    "url": "https://chhs.data.ca.gov/api/views/pch7-48qc"
+    "name": "Chemicals in Cosmetics",
+    "filename": "chem-in-cos",
+    "url": "https://chhs.data.ca.gov/resource/486w-i5jv"
   }
 ]
