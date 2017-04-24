@@ -30,8 +30,8 @@ func toJson(p interface{}) string {
     return string(bytes)
 }
 
-func getPages() []Page {
-    raw, err := ioutil.ReadFile("./chhs.json")
+func getPages(filename string) []Page {
+    raw, err := ioutil.ReadFile(filename)
     if err != nil {
         fmt.Println(err.Error())
         os.Exit(1)
@@ -44,7 +44,7 @@ func getPages() []Page {
 
 func main() {
 
-    pages := getPages()
+    pages := getPages("./chhs.json")
 
     fmt.Println(len(pages))
     fmt.Println(reflect.TypeOf(pages))
