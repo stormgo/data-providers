@@ -1,6 +1,6 @@
 // https://www.chazzuka.com/2015/03/load-parse-json-file-golang/
 
-package main
+package jsontools
 
 import (
     "encoding/json"
@@ -30,7 +30,7 @@ func toJson(p interface{}) string {
     return string(bytes)
 }
 
-func getPages(filename string) []Page {
+func GetPages(filename string) []Page {
     raw, err := ioutil.ReadFile(filename)
     if err != nil {
         fmt.Println(err.Error())
@@ -42,10 +42,7 @@ func getPages(filename string) []Page {
     return c
 }
 
-func main() {
-
-    pages := getPages("./chhs.json")
-
+func Print(pages []Page) {
     fmt.Println(len(pages))
     fmt.Println(reflect.TypeOf(pages))
 
@@ -55,3 +52,10 @@ func main() {
 
     fmt.Println(toJson(pages))
 }
+
+/*
+func main() {
+    pages := getPages("./chhs.json")
+    print(pages)
+}
+*/
