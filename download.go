@@ -2,26 +2,34 @@ package main
 
 import (
 	"./jsontools"
-	//"github.com/go-resty/resty"
+	"fmt"
+	"github.com/go-resty/resty"
 )
 
 func main() {
 
-	pages := jsontools.GetPages("./chhs.json")
-    jsontools.Print(pages)
-
-
-/*
 	resty.SetOutputDirectory("/tmp57/data")
 
-	_, err := resty.R().
-		SetOutput("medreview.json").
-		Get("https://chhs.data.ca.gov/api/views/pch7-48qc/rows.json")
+	pages := jsontools.GetPages("./chhs.json")
+	// jsontools.Print(pages)
 
-	if err != nil {
-		fmt.Println(err)
+	for _, p := range pages {
+		fmt.Println(p.Filename)
+		//fmt.Println(p.Url)
+
+		_, err := resty.R().
+			SetOutput(p.Filename + ".json").Get(p.Url + ".json")
+
+		if err != nil {
+			fmt.Println(err)
+		}
+
+		_, err = resty.R().SetOutput(p.Filename + ".csv").Get(p.Url + ".csv")
+
+		if err != nil {
+			fmt.Println(err)
+		}
 	}
-
 	fmt.Println("done")
-*/
+
 }
