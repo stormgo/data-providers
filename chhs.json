@@ -23,5 +23,10 @@
     name: "Key Characteristics of Californians Age 60 and Over",
     filename: "characteristics-over-age-60",
     url: "https://chhs.data.ca.gov/resource/dqye-6xgx"
+  },
+  {
+    name: "Independent Medical Review (IMR) Determinations, Trend",
+    filename: "imr",
+    url: "https://chhs.data.ca.gov/api/views/pch7-48qc"
   }
 ]
