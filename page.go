@@ -30,6 +30,18 @@ func toJson(p interface{}) string {
     return string(bytes)
 }
 
+func getPages() []Page {
+    raw, err := ioutil.ReadFile("./chhs.json")
+    if err != nil {
+        fmt.Println(err.Error())
+        os.Exit(1)
+    }
+
+    var c []Page
+    json.Unmarshal(raw, &c)
+    return c
+}
+
 func main() {
 
     pages := getPages()
@@ -42,16 +54,4 @@ func main() {
     }
 
     fmt.Println(toJson(pages))
-}
-
-func getPages() []Page {
-    raw, err := ioutil.ReadFile("./chhs.json")
-    if err != nil {
-        fmt.Println(err.Error())
-        os.Exit(1)
-    }
-
-    var c []Page
-    json.Unmarshal(raw, &c)
-    return c
 }
