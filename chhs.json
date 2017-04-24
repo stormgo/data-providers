@@ -13,5 +13,15 @@
     name: "Fruit and Vegetable Consumption in California Residents, 2012/2013",
     filename: "vegetable-consumption",
     url: "https://chhs.data.ca.gov/resource/mhu4-w2fm"
+  },
+  {
+    name: "Income Inequality",
+    filename: "income-inequality",
+    url: "https://chhs.data.ca.gov/resource/6mx8-yezg"
+  },
+  {
+    name: "Key Characteristics of Californians Age 60 and Over",
+    filename: "characteristics-over-age-60",
+    url: "https://chhs.data.ca.gov/resource/dqye-6xgx"
   }
 ]
